@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAppiSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:WebAppiSwagger.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.HomeController.About">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.HomeController.Contact">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.HomeController.Privacy">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.HomeController.Error">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebAppiSwagger.Controllers.PhonesController">
+            <summary>
+            Phones Controller
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.PhonesController.Get">
+            <summary>
+            Get List Phone
+            </summary>
+            <returns>List Of Phones</returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.PhonesController.Get(System.Int32)">
+            <summary>
+            Find One Phone
+            </summary>
+            <param name="id">Id</param>
+            <returns>Phone</returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.PhonesController.Post(WebAppiSwagger.Models.Phone)">
+            <summary>
+            Post Phone
+            </summary>
+            <param name="value">Phone</param>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.PhonesController.Put(System.Int32,WebAppiSwagger.Models.Phone)">
+            <summary>
+            Put Phone
+            </summary>
+            <param name="id">Id</param>
+            <param name="value">Phone</param>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.PhonesController.Delete(System.Int32)">
+            <summary>
+            Delete Phone
+            </summary>
+            <param name="id">Id</param>
+        </member>
+        <member name="T:WebAppiSwagger.Controllers.UsersController">
+            <summary>
+            Users Controller
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.UsersController.Get">
+            <summary>
+            Get List User
+            </summary>
+            <returns>List of Users</returns>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+            Get One User
+            </summary>
+            <param name="id">Param</param>
+            <returns>User</returns>        
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.UsersController.Post(WebAppiSwagger.Models.User)">
+            <summary>
+            Post User
+            </summary>
+            <param name="value">Class User</param>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.UsersController.Put(System.Int32,WebAppiSwagger.Models.User)">
+            <summary>
+            Put User
+            </summary>
+            <param name="id">Id User</param>
+            <param name="value">Class User</param>
+        </member>
+        <member name="M:WebAppiSwagger.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Delete User
+            </summary>
+            <param name="id">Id User</param>
+        </member>
+        <member name="T:WebAppiSwagger.Models.DatabaseContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Models.DatabaseContext.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Models.DatabaseContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{WebAppiSwagger.Models.DatabaseContext})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Models.DatabaseContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="optionsBuilder"></param>
+        </member>
+        <member name="P:WebAppiSwagger.Models.DatabaseContext.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.DatabaseContext.User">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:WebAppiSwagger.Models.ErrorViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.ErrorViewModel.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.ErrorViewModel.ShowRequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:WebAppiSwagger.Models.Phone">
+            <summary>
+            Class Phone
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.Phone.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.Phone.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.Phone.Ddd">
+            <summary>
+            Ddd
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.Phone.Number">
+            <summary>
+            Number
+            </summary>
+        </member>
+        <member name="T:WebAppiSwagger.Models.User">
+            <summary>
+            Class User
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.User.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.User.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:WebAppiSwagger.Models.User.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="T:WebAppiSwagger.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:WebAppiSwagger.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebAppiSwagger.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:WebAppiSwagger.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebAppiSwagger.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebAppiSwagger.Startup.GetPlatformServicesValue">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAppiSwagger.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
